@@ -6,10 +6,15 @@ This was done by downloading and engineering the dataset which can be seen in th
 
 ## Data Engineering 
 The dataset came from the Ames Housing Dataset from Kaggle (https://www.kaggle.com/datasets/shashanknecrothapa/ames-housing-dataset)
+
 The dataset was filtered into specific columns that were to be included in the project ('SalePrice', 'Neighborhood', 'Year Built', 'TotRms AbvGrd', 'Bldg Type', 'Garage Cars', 'Paved Drive')
+
 Year built was turned into house age by subtracting it from 2010 (the last year the data was collected). 
+
 Neighborhoods were then sorted by their mean property price and merged into 3 groups of either budget (<$140,000), average ($140,000-$220,000), or premium (>$220,000).
+
 Structural classifications were remapped to fit a UK based terminology ('1Fam' -> Detached, 'TwnhsE' -> Semi-Detached, 'TwnHs' -> Terraced, 'Duplex / 2fmCon' -> Flat).
+
 Categorical variables such as 'Bldg Type' and 'Location Tier' were transformed using one hot encoding with one column dropped to be used as the baseline.
 
 ## Predicted Machine Learning Model
