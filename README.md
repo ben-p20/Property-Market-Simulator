@@ -1,4 +1,4 @@
-# Property-Market-Simulator
+# Property Market Simulator
 
 
 This project looked at creating a visual and interactive property value calculator with a synthetic market simulation to go alongside the users result to allow for an analysis between the results.
@@ -72,6 +72,7 @@ This is then used to calculate the property value before adding a Gaussian noise
 # Statistics
 
 The users house is evaluated against their targeted subset tier and the city wide market simultaneously using a statistical summary dashboard which compares mean price, standard deviation, standard error of the mean, and dual z-score comparisons.
+
 <img width="405" height="237" alt="image" src="https://github.com/user-attachments/assets/4cb7322b-1a2c-4702-8c10-ad0534283150" />
 
 # Visual Reporting
