@@ -89,5 +89,5 @@ Matplotlib was used for visualising the report with
 While a linear regression model provides an interpretable baseline for attribute weights it comes with the limitations of calculating negative property values
 Because the model combines features additively, a property with multiple compounding penalty coefficients can force the output to be below 0 which is not a realistic output.
 Future work could focus on:
-1. Switching to a log-linear model: Instead of predicting raw price directly, the model can be configured to predict the logarithm of the price which prevents the output from being a negative number
+1. Switching to a log-linear model: Instead of predicting raw price directly, the model can be configured to predict the logarithm of an attribute which prevents the output from being a negative number
 2. Changing fixed adjustments to percentage based impacts: Rather than flat hardcoded values such as how a garage adds $25,594 to a house's value, these values would be turned into percentages, such as adding a dynamic 15% increase to the value for example, allowing the tool to automatically scale the value of a feature based on the size and location of a house (such as how a garage on a larger house may be worth more than one on a flat)
