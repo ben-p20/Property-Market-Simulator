@@ -53,6 +53,7 @@ The application layer takes user property inputs through terminal prompt and cre
 
 ## Valuation Interface
 Using the weights from the configuration matrix, the app calculates the expected price of the users custom house:
+```python
 user_predicted_price = (
     MODEL_CONFIG["BASELINE_PRICE"] +
     (user_rooms * MODEL_CONFIG["WEIGHTS"]["Rooms"]) +
@@ -62,7 +63,7 @@ user_predicted_price = (
     MODEL_CONFIG["TIER_WEIGHTS"][user_tier] +
     MODEL_CONFIG["PROPERTY_TYPE_WEIGHTS"][user_bldg]
 )
-
+```
 ## Synthetic Database Generation
 The script simulates a real estate market by constructing a city wide market of 3,000 properties split equally into the three tiers of budget, average, and premium.
 Each individual property is assigned unique structural attributes through probability based decisions (so that structural attributes more closely match building types, ie. a flat being less likely to have a garage than a detached house).
