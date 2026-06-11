@@ -15,6 +15,7 @@ Categorical variables such as 'Bldg Type' and 'Location Tier' were transformed u
 ## Predicted Machine Learning Model
 The feature matrix is split into independent features (everything but the sale price) and dependent target value (sale price)
 A linear regression model is used to extract the true base intercept and coefficients:
+
 Baseline Price (Intercept): $40,386.64
 Attribute Weights (Coefficients):
 -> TotRms AbvGrd                  : $16,252.76
@@ -27,6 +28,7 @@ Attribute Weights (Coefficients):
 -> Bldg Type_TwnhsE               : $-10,443.59
 -> Location Tier_Budget Tier      : $-10,768.94
 -> Location Tier_Premium Tier     : $65,201.46
+
 The model then finds the standard deviation ($79,873) and residual standard error ($45,155)
 
 # Interactive Simulation
