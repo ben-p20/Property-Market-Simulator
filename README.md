@@ -17,17 +17,28 @@ The feature matrix is split into independent features (everything but the sale p
 A linear regression model is used to extract the true base intercept and coefficients:
 
 Baseline Price (Intercept): $40,386.64
+
 Attribute Weights (Coefficients):
--> TotRms AbvGrd                  : $16,252.76
--> Garage Cars                    : $25,594.13
--> Paved Drive                    : $5,766.77
--> House Age                      : $-506.64
--> Bldg Type_2fmCon               : $-18,199.37
--> Bldg Type_Duplex               : $-54,091.89
--> Bldg Type_Twnhs                : $-35,294.54
--> Bldg Type_TwnhsE               : $-10,443.59
--> Location Tier_Budget Tier      : $-10,768.94
--> Location Tier_Premium Tier     : $65,201.46
+
+TotRms AbvGrd: $16,252.76
+
+Garage Cars: $25,594.13
+
+Paved Drive: $5,766.77
+
+House Age: $-506.64
+
+Bldg Type_2fmCon: $-18,199.37
+
+Bldg Type_Duplex: $-54,091.89
+
+Bldg Type_Twnhs: $-35,294.54
+
+Bldg Type_TwnhsE: $-10,443.59
+
+Location Tier_Budget Tier: $-10,768.94
+
+Location Tier_Premium Tier: $65,201.46
 
 The model then finds the standard deviation ($79,873) and residual standard error ($45,155)
 
