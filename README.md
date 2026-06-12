@@ -78,7 +78,7 @@ The users house is evaluated against their targeted subset tier and the city wid
 # Visual Reporting
 
 Matplotlib was used for visualising the report with
-1. Multi-tier Density Analysis (KDE): plots three distinct overlapping bell curves representing value distribution of each location tier, with a vertical dashed marker to represent the users property value and total city average.
+1. Multi-tier Density Analysis (KDE): Plots three distinct overlapping bell curves representing value distribution of each location tier, with a vertical dashed marker to represent the users property value and total city average.
 2. Market Segment Boxplot Analysis: Outlines boxplots for each location tier to demonstrate median bands and market outliers, with a marker indicating the users absolute asset placement within its chosen location tier.
 <img width="1584" height="569" alt="image" src="https://github.com/user-attachments/assets/bf77e6dd-1f61-4152-8c4c-947cb601e057" />
 
