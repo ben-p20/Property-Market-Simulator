@@ -65,7 +65,7 @@ user_predicted_price = (
 )
 ```
 ## Synthetic Database Generation
-The script simulates a real estate market by constructing a city wide market of 3,000 properties split equally into the three tiers of budget, average, and premium.
+The code simulates a real estate market by constructing a city wide market of 3,000 properties split equally into the three tiers of budget, average, and premium.
 Each individual property is assigned unique structural attributes through probability based decisions (so that structural attributes more closely match building types, ie. a flat being less likely to have a garage than a detached house).
 This is then used to calculate the property value before adding a Gaussian noise which is scaled to the residual standard error to simulate market variation and anomalies.
 
