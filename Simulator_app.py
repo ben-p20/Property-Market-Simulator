@@ -34,7 +34,7 @@ MODEL_CONFIG = {
 print("Property Valuation & Market Dynamics Simulator")
 
 # Structural inputs
-user_rooms = int(input("Enter number of rooms/bedrooms: "))
+user_rooms = int(input("Enter number of rooms: "))
 user_garages = int(input("Enter garage size (0 for none, 1 for single, 2 for double): "))
 user_driveway = int(input("Has private driveway? (1 for yes, 0 for no): "))
 user_age = int(input("Enter property age in years: "))
