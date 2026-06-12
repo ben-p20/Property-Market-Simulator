@@ -18,7 +18,7 @@ Structural classifications were remapped to fit a UK based terminology ('1Fam' -
 Categorical variables such as 'Bldg Type' and 'Location Tier' were transformed using one hot encoding with one column dropped to be used as the baseline.
 
 ## Predicted Machine Learning Model
-The feature matrix is split into independent features (everything but the sale price) and dependent target value (sale price)
+The feature matrix is split into independent features (everything but the sale price) and dependent target value (sale price).
 A linear regression model is used to extract the true base intercept and coefficients:
 
 Baseline Price (Intercept): $40,386.64
